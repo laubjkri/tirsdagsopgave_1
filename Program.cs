@@ -146,7 +146,7 @@ class TeamsWithGroups {
         int off_by_one;
         for (int i = 0; i < groups.Count; i++) {
             off_by_one = i + 1;
-            Console.WriteLine($"Matches for group {off_by_one} :");
+            Console.WriteLine($"Matches for group {off_by_one}:");
             groups[i].PrintMatches();
             Console.WriteLine();
         }        
